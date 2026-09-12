@@ -1,2 +1,4 @@
-aiohttp
 flask
+aiohttp
+pymongo
+dnspython
