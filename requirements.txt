@@ -2,3 +2,4 @@ flask
 aiohttp
 pymongo
 dnspython
+gunicorn
