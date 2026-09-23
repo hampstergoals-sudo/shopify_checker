@@ -1,5 +1,6 @@
-flask
+telethon
 aiohttp
-pymongo
-dnspython
-gunicorn
+aiofiles
+pycryptodome
+cryptography
+python-dotenv
