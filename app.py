@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # ========== Config ==========
 API_ID = 33350554
 API_HASH = 'f0c9cd31e587a08cda09b1e725d3dd67'
-BOT_TOKEN = '8821658020:AAHjUZsLQRbHjO7Dufy3rYNh3mKdIyU9Sis'
+BOT_TOKEN = '8830175369:AAHQemHnG8iEY6mje7VlGIKMJZYMMeLGw4I'
 ADMIN_ID = [1714616609, 6806436992, 8527559335]
 
 # ═══════════════════════════════════════════════════
