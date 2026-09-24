@@ -11,7 +11,6 @@ import json
 import re
 import logging
 from datetime import datetime
-from my_secrets import get_v2_api_url
 
 # ========== Logging ==========
 logging.basicConfig(
@@ -23,9 +22,14 @@ logger = logging.getLogger(__name__)
 # ========== Config ==========
 API_ID = 33350554
 API_HASH = 'f0c9cd31e587a08cda09b1e725d3dd67'
-BOT_TOKEN = '8821658020:AAGKpX5VBLLZVtd0l4XY2xrEVwfP4rFj9Gc'
+BOT_TOKEN = '8821658020:AAFBG8rOFhAce5NhM3G6EafURlME8mLH2bA'
 ADMIN_ID = [1714616609, 6806436992, 8527559335]
-CHECKER_API_URL = get_v2_api_url()
+
+# ═══════════════════════════════════════════════════
+# ✅ API المباشر - بدون ملف مشفر
+# ═══════════════════════════════════════════════════
+CHECKER_API_URL = 'http://5.175.222.144:8081'
+# ═══════════════════════════════════════════════════
 
 # ═══════════════════════════════════════════════════
 # ✨ ضع ايدي قناة نشر البطاقات (Charged / Approved) هنا
@@ -81,7 +85,6 @@ RETRY_KEYWORDS = [
 # ═══════════════════════════════════════════════════
 
 bot = TelegramClient('maestro_bot_v2', API_ID, API_HASH)
-
 # ========== Global State ==========
 active_sessions = {}
 user_locks = {}
