@@ -208,4 +208,4 @@ async def check_card(card: str, email: str, password: str,
     return await loop.run_in_executor(
         None, _sync_check, card, email, password, proxy, timeout, debug
     )
-ENDOFFILE
+
