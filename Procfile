@@ -1,3 +1,1 @@
-cat > Procfile << 'ENDOFFILE'
-worker: python bot.py
-ENDOFFILE
+web: python bot.py
