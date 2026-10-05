@@ -1,8 +1,3 @@
-cat > braintree.py << 'ENDOFFILE'
-# ═══════════════════════════════════════════════════════════
-#  Braintree Auth Checker - Core Module
-#  Domain: kaffn8.com
-# ═══════════════════════════════════════════════════════════
 
 import requests
 import re
