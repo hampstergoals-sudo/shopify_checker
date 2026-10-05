@@ -1,6 +1,6 @@
+cat > requirements.txt << 'ENDOFFILE'
 telethon
-aiohttp
 aiofiles
-pycryptodome
-cryptography
-python-dotenv
+aiohttp
+requests
+ENDOFFILE
