@@ -1,6 +1,4 @@
-cat > requirements.txt << 'ENDOFFILE'
 telethon
 aiofiles
 aiohttp
 requests
-ENDOFFILE
