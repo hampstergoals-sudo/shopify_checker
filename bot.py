@@ -98,7 +98,7 @@ def bs(text):
 # ═══════════════════════════════════════════════════════════
 API_ID = 37492640
 API_HASH = "6cc6f53bea7276cd1394173608b86d69"
-BOT_TOKEN = "8960684510:AAFQXVswk0eoxzmfko0VixgEI5cqwcwDIKw"
+BOT_TOKEN = "8960684510:AAE6WoQUTX8GG8TmXZGjui6C8emBRQ-kgVY"
 
 ADMIN_ID = [8527559335]
 
